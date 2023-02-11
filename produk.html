@@ -1,0 +1,629 @@
+<!doctype html>
+<html lang="en">
+  <!--
+        Nama    : Tiandry Simatupang
+        NIM     : 10122342
+        Kelas   : IF.9
+    -->
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Red Store</title>
+    <link rel="icon" type="image/x-icon" href="aset/lion.png">
+  </head>
+  <body>
+
+
+    <!--awal narbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="aset/lion.png" alt="" width="40" height="40" class="me-2"><strong>RED</strong> Store
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="produk.html">Produk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="keranjang-belanja.html">Keranjang</a>
+              </li>
+            </ul>
+            </a>
+          </div>
+        </div>
+      </nav>
+      <!--akhir navbar-->
+
+    <!--awal produk-->
+    <div class="container mt-5">
+      <div class="judul-produk" style="background-color: #fff; padding: 5px 10px;">
+        <h5 class="text-center" style="margin-top: 5px;"><strong>PRODUK</strong></h5>
+      </div>
+      <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="./aset/gambar/foto2.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h6 class="card-title">Brow Back Pack</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div> 
+              <p class="card-text mt-2">899.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="./aset/gambar/foto1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Pants</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.299.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="./aset/gambar/foto3.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Miband Watch</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.4.999.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="./aset/gambar/foto4.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">T shirt</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.299.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="./aset/gambar/foto5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Bag food</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.49.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="./aset/gambar/foto6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Tartan</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.199.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="./aset/gambar/foto7.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Rattan Bag </h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.129.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="./aset/gambar/foto8.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Lee Cooper Jeans</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.399.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="./aset/gambar/foto9.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">T shirt casual</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.199.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="./aset/gambar/foto10.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Watch</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.399.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="./aset/gambar/foto11.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">T shirt</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.199.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="https://images.unsplash.com/photo-1618354691551-44de113f0164?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Plain Long Sleeve T Shirt</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.399.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="https://images.unsplash.com/photo-1602810320073-1230c46d89d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Shirt</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.1.999.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="https://images.unsplash.com/photo-1511500118080-275313ec90a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Beanies</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.180.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="https://images.unsplash.com/photo-1618354691490-0de58a2c4c93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60">
+            <div class="card-body">
+              <h6 class="card-title">Water Bottle </h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.300.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNhcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Beanies</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.150.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="https://images.unsplash.com/photo-1597045566677-8cf032ed6634?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Air Jordan 1 white</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.9.999.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="https://images.unsplash.com/photo-1626379616459-b2ce1d9decbc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Nike air force 1</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.2.999.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="https://images.unsplash.com/photo-1521093470119-a3acdc43374a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Air Jordan 1 high red</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.7.999.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="https://images.unsplash.com/photo-1622560481979-f5b0174242a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">The Captain Pack</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.599.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Rolex</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.8.999.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="https://images.unsplash.com/photo-1622560480654-d96214fdc887?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJhZ3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Leather back pack</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.999.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2F0Y2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Chronograpgh</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.13.999.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="https://images.unsplash.com/photo-1583744946564-b52ac1c389c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHQlMjBzaGlydHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">T shirt</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.99.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="https://images.unsplash.com/photo-1584735174965-48c48d7edfde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Air Jordan 1 high</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.4  .599.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="https://images.unsplash.com/photo-1596273501583-5bdb2c7220d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Pråper backpack</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.499.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="https://images.unsplash.com/photo-1556906781-9a412961c28c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
+            <div class="card-body">
+              <h6 class="card-title">Nike jordan low</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.4.399.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="https://images.unsplash.com/photo-1609172795052-05bf80681031?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGJhZ3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Prada bag</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.4.999.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=394&q=80" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Quartz</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp13.999.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+          <div class="card text-center">
+            <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YmFnc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Blue back pack</h6>
+              <div class="icon-bintang" style="color: orange;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEu1lYFRAjEQRR8VAB1IBUAFSAVqB1gBUgFQAXaAdmAHYgdQAZQgFcB8J2FCSC6Jx+3Mzdwkd//vZv/+tGg4Wg3jU0qwBU7AMDexEoIJsDbAr8BHDkkJwQYYGVC9j+9J8Ah8e4AiEFFl5FbwBTx5SJ+Ajq02wQOwj6D0gEMVg1vBM9AHBKhH0QEGiSSlrF/zjcj07ABVfSVTye+e8Ze8W4Erw7pEFxn7Ta5LcgTe3BkJqei/JAKXnNWTS8RkWkoSBPd74J/7OzDNbEZ06KoGzbWGFM8MUEI3UUVQItsfc/7ZBCHvSVXRdQYu2WRJbRVAXJq1eWDvxU5vjop8c9PoS1lWgrIP3QeyFhtB84v1QN7SNn8q60XkfLRuq5EHyfyuIkZgM3WzjvXAVqP9G2PMvQ9SDY7uN05wBhfJNRknNMUtAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZNJREFUSEu1lYExxVAQRc+vABWgAlSAClABKkAFqAAVoAI6QAdUQAeogDlm989L5EWCvzOZn8nP3Hv3vrubCTOuyYzxGUvwCHwAa0OFjSHYAy4DeB+4GkIyhuAeWA9Q7zf/k2ADuAPeA3QuCCTqraEd3AJbwGmgHQPXgLb9mWAJeA6Uhfh9jd9l4KWPoexgG1gBBPSy5oHVuC8Ve8C78dxkvcW9ZF5PgF03Ymr8aqX3EqVaBQjsWdTqS3zZQRlD1apSZQL1lcR2eh4O+O40xu1D/k3WBT+LA7fTw3JGulJUktiFamoluPG1C8GNc6PjWkxLkqNov4tEMIPRCd4+gzaAnh5E9k8qLXjoi31D1zdouRp2MnIdJBnXapd9BBlbh8s06XO57LTH2bkBHsL/bxpqBLl7HBiBtcj1UJbPLoCc6hTSeKlGYNSMXiYip7ncRQL5v0ly8DqtrBHkcks1dmKySkL9N0FZncuvRqDnuQZUXUtRaZ2JcvkNsiiVlqprw6Z9+XVLK6fvDv0e/LCO6n/PnOATq2BVGYMGXfgAAAAASUVORK5CYII="/>
+              </div>
+              <p class="card-text mt-2">Rp.999.000</p>
+              <a href="keranjang-belanja.html" class="btn btn-dark d-grid">Beli</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--akhir produk-->
+
+    <!--Footer-->
+    <footer class="bg-light p-5 mt-5">
+      <div class="container">
+        <div class="row mt-2">
+          <div class="col md-6 text-md-star text-center pt-2 pb-2">
+            <a href="#" style="text-decoration: none;" >
+              <img src="./aset/lion.png" style="width: 40px;">
+            </a>
+            <span>RED Store | Created by <a href="https://instagram.com/lnchuo?igshid=Yzg5MTU1MDY=" class="text-decroration-none text-dark fw-bold">Tiandry Simatupang</a></span>
+          </div>
+
+          <div class="col md-6 text-md-end text-center pt-2 pb-2">
+            <a href="https://instagram.com/lnchuo?igshid=Yzg5MTU1MDY=" style="text-decoration: none;">
+              <img src="https://www.freepngimg.com/download/logo/69768-logo-computer-layout-instagram-icons-png-file-hd.png"class="ms-2" style="width: 40px;">
+            </a>
+            <a href="https://www.tiktok.com/@andy11303?_t=8ZLjTa5eLgn&_r=1" style="text-decoration: none;">
+              <img src="https://www.bing.com/th?id=OIP.K27Zig7nc-qgGAgSXxIzHQHaHv&w=160&h=167&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"class="ms-2" style="width: 40px;">
+            </a>
+          </div>
+        </div>
+      </div> 
+  </footer>
+    <!-- akhir Footer-->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>

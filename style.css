@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
+.body{
+    background-color: #EAEAEA;
+    font-family:'Poppins', sans-serif;
+    color: #2D2D2D;
+    font-size: 14px;
+}
+/*Navbar*/
+.form-control{
+    font-size: 14px;
+}
+@media screen and (min-width: 994px) {
+.form-control{
+    width: 350px;
+}
+}
+    
+@media screen and (max-width: 994px) {
+.navbar-nav{
+    text-align: center;
+}
+}
+/*Navbar*/
+
+/*style produk*/ 
+.card:hover{
+    border: 1px solid #2D2D2D;
+}
+
+/*style produk*/
+
+/*footer*/
