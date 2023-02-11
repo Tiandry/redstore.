@@ -1,0 +1,2 @@
+# redstore.
+website statis redstore
